@@ -1,0 +1,99 @@
+
+.container-global{
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea si no caben todas en una sola línea */
+  justify-content: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
+}
+.card {
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cardArchitecture{
+  padding: 0px;
+  border-radius: 10px;
+  width: 300px;
+  border: #000000aa solid 2px;
+  margin: 10px;
+  background-color: white;
+}
+
+.image{
+    width: 100%;
+    background-color: black;
+}
+
+.img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 300px;
+}
+
+.title{
+  font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.content{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 28px;
+  background-color: greenyellow;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.circle{
+  text-align: center;
+    border-radius: 20px;
+    width: 86px;
+    position: absolute;
+    transform: translate(100%, -50%);
+    background-color: greenyellow;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: black solid 3px;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 6px;
+  background-color: #4CAF50;
+}
+.pagination-button-siguiente {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 6px;
+  background-color: #4CAF50;
+}
+
+.pagination-button:hover {
+  background-color: #ddd;
+}
+
+.pagination-button.active {
+  background-color: #204d21;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+}
+
+.pagination-button.disabled {
+  background-color: #9e9e9e;
+  color: rgb(190, 190, 190);
+  border: 1px solid #9e9e9e;
+}

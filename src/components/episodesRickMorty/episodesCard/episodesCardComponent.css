@@ -1,0 +1,36 @@
+.cardArchitecture{
+    padding: 0px;
+    border-radius: 10px;
+    width: 300px;
+    border: #000000aa solid 2px;
+    margin: 10px;
+    height: 100%;
+    background-color: white;
+  }
+  
+  .title{
+    font-family: fantasy;
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .detail{
+    background: blanchedalmond;
+    margin-right: -28px;
+    margin-left: -28px;
+    text-align: center;
+  }
+
+  .date{
+    text-align: center;
+  }
+
+  .content{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 28px;
+    background-color: greenyellow;
+  }
+  
